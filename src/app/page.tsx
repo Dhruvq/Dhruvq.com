@@ -45,11 +45,11 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="w-full mb-16 max-w-3xl mr-auto">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-neutral-white leading-tight mb-4 tracking-tight">
-          I'm an aspiring Software Engineer and Applied Data Scientist graduating in <span className="text-neon-green whitespace-nowrap">December 2026</span>.
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-white leading-tight mb-4 tracking-tight">
+          Software Engineer building Scalable, Data-driven <span className="text-neon-green">Systems</span>
         </h2>
         <p className="text-lg text-dimmed-zinc leading-relaxed">
-          I am particularly excited to work with intelligent ML infrastructure and solve complex, data-driven problems from ideation to production.
+          Focused on machine learning infrastructure, experimentation, and real-world deployment
         </p>
       </section>
 
@@ -67,7 +67,7 @@ export default function Home() {
               <span className="text-dimmed-zinc">AT&amp;T (Incoming)</span>
             </li>
             <li className="flex flex-col gap-1">
-              <span className="text-sm font-mono text-neon-green">Sep 2025 - Present</span>
+              <span className="text-sm font-mono text-neon-green">Sep 2025 - Jan 2026</span>
               <span className="text-neutral-white font-medium text-lg">Machine Learning Engineer</span>
               <span className="text-dimmed-zinc">Mercor</span>
               <p className="text-sm text-dimmed-zinc/80 mt-2">
@@ -84,7 +84,7 @@ export default function Home() {
           </h3>
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-1">
-              <span className="text-sm font-mono text-neon-green">Expected May 2027</span>
+              <span className="text-sm font-mono text-neon-green">Aug 2025 - Dec 2026 (Expected)</span>
               <span className="text-neutral-white font-medium text-lg">M.S. Electrical Engineering (Data Science)</span>
               <span className="text-dimmed-zinc">University of Southern California</span>
             </li>
@@ -92,9 +92,14 @@ export default function Home() {
               <span className="text-sm font-mono text-neon-green">Sep 2022 - Jun 2025</span>
               <span className="text-neutral-white font-medium text-lg">B.S. Electrical Engineering</span>
               <span className="text-dimmed-zinc">University of California, Riverside (Cum Laude)</span>
-              <p className="text-sm text-dimmed-zinc/80 mt-2">
-                GPA: 3.77
-              </p>
+              <div className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1">
+                <p>GPA: 3.77</p>
+                <div className="opacity-80 mt-1 flex flex-col leading-snug">
+                  <span>Graduated Cum Laude</span>
+                  <span>Chancellor’s Honors List (All years)</span>
+                  <span>Dean’s Honors List (All quarters)</span>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -103,7 +108,7 @@ export default function Home() {
       {/* Quick Hits / Projects */}
       <section className="w-full flex flex-col gap-6 mb-20">
         <h3 className="text-xs text-dimmed-zinc uppercase tracking-widest font-mono border-b border-white/10 pb-4 mb-2">
-          Quick Hits / Projects
+          Projects / Quick Hits
         </h3>
 
         <div className="grid sm:grid-cols-2 gap-4">
