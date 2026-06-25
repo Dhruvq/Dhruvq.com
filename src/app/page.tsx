@@ -63,8 +63,11 @@ export default function Home() {
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Jun 2026 - Aug 2026</span>
-              <span className="text-neutral-white font-medium text-lg">Systems Engineering Intern</span>
-              <span className="text-dimmed-zinc">AT&amp;T (Incoming)</span>
+              <span className="text-neutral-white font-medium text-lg">Software Engineering Intern</span>
+              <span className="text-dimmed-zinc">AT&amp;T</span>
+              <p className="text-sm text-dimmed-zinc/80 mt-2">
+                Developed an unsupervised fraud detection system using Isolation Forests to identify international fraud for MVNO partners. Engineered ETL pipelines extracting telemetry from Snowflake to PostgreSQL, and integrated SHAP-based explainability to justify anomaly scores and automated account suspensions.
+              </p>
             </li>
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Sep 2025 - Jan 2026</span>
