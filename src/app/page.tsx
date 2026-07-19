@@ -20,7 +20,7 @@ export default function Home() {
 
         <div className="flex flex-col items-start sm:items-end gap-3 w-full sm:w-auto">
           <Link
-            href="/current_resume.pdf"
+            href="/Resume_07_2026.pdf"
             target="_blank"
             className="inline-flex w-full sm:w-56 h-10 items-center justify-center rounded-md bg-neon-purple px-6 text-sm font-medium text-white transition-all glow-purple hover:glow-purple-hover"
           >
