@@ -65,17 +65,21 @@ export default function Home() {
               <span className="text-sm font-mono text-neon-green">Jun 2026 - Aug 2026</span>
               <span className="text-neutral-white font-medium text-lg">Software Engineering Intern</span>
               <span className="text-dimmed-zinc">AT&amp;T</span>
-              <p className="text-sm text-dimmed-zinc/80 mt-2">
-                Engineered a scalable backend anomaly detection service using asynchronous FastAPI endpoints, integrating an Extended Isolation Forest (EIF) model to automatically detect and suspend telecom fraud. Built automated Azure ETL pipelines to ingest 12M+ phone records from Snowflake to PostgreSQL, executing bihourly incremental upserts. Designed a real-time decision engine with a monthly MLOps pipeline to retrain and promote models to production upon PU F-score improvement.
-              </p>
+              <ul className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1 list-disc list-inside">
+                <li>Engineered a scalable backend anomaly detection service using asynchronous FastAPI endpoints, integrating an Extended Isolation Forest (EIF) model to automatically detect and suspend telecom fraud.</li>
+                <li>Built automated Azure ETL pipelines to ingest 12M+ phone records from Snowflake to PostgreSQL, executing bihourly incremental upserts of user telemetry metrics to trigger batch fraud inference.</li>
+                <li>Designed a real-time decision engine with a monthly MLOps pipeline to retrain and promote models to production upon PU F-score improvement.</li>
+              </ul>
             </li>
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Sep 2025 - Jan 2026</span>
               <span className="text-neutral-white font-medium text-lg">Machine Learning Engineer</span>
               <span className="text-dimmed-zinc">Mercor</span>
-              <p className="text-sm text-dimmed-zinc/80 mt-2">
-                Compiled external ML competitions into challenging tasks reflecting real-world ML responsibilities. Drafted detailed natural-language execution plans and implemented them in Python within Docker environments, validating against original plans. Tasks are used by researchers to train models on high-quality data.
-              </p>
+              <ul className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1 list-disc list-inside">
+                <li>Compiled external ML competitions into challenging tasks reflecting real-world ML responsibilities.</li>
+                <li>Drafted detailed natural-language execution plans and implemented them in Python within Docker environments, validating against original plans.</li>
+                <li>Tasks are used by researchers to train models on high-quality data.</li>
+              </ul>
             </li>
           </ul>
         </div>
