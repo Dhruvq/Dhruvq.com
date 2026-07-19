@@ -13,7 +13,7 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-neon-green/30 bg-neon-green/5 w-fit">
             <span className="w-2 h-2 rounded-full bg-neon-green glow-green"></span>
             <span className="text-xs uppercase tracking-wider text-neon-green font-mono">
-              Status: Graduating Dec '26
+              Status: Graduating May '27
             </span>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Home() {
               <span className="text-neutral-white font-medium text-lg">Software Engineering Intern</span>
               <span className="text-dimmed-zinc">AT&amp;T</span>
               <p className="text-sm text-dimmed-zinc/80 mt-2">
-                Developed an unsupervised fraud detection system using Isolation Forests to identify international fraud for MVNO partners. Engineered ETL pipelines extracting telemetry from Snowflake to PostgreSQL, and integrated SHAP-based explainability to justify anomaly scores and automated account suspensions.
+                Engineered a scalable backend anomaly detection service using asynchronous FastAPI endpoints, integrating an Extended Isolation Forest (EIF) model to automatically detect and suspend telecom fraud. Built automated Azure ETL pipelines to ingest 12M+ phone records from Snowflake to PostgreSQL, executing bihourly incremental upserts. Designed a real-time decision engine with a monthly MLOps pipeline to retrain and promote models to production upon PU F-score improvement.
               </p>
             </li>
             <li className="flex flex-col gap-1">
@@ -74,7 +74,7 @@ export default function Home() {
               <span className="text-neutral-white font-medium text-lg">Machine Learning Engineer</span>
               <span className="text-dimmed-zinc">Mercor</span>
               <p className="text-sm text-dimmed-zinc/80 mt-2">
-                Drafting detailed NLP pipelines, ML agent plans, and implementing containerized Python environments for rigorous model evaluation.
+                Compiled external ML competitions into challenging tasks reflecting real-world ML responsibilities. Drafted detailed natural-language execution plans and implemented them in Python within Docker environments, validating against original plans. Tasks are used by researchers to train models on high-quality data.
               </p>
             </li>
           </ul>
@@ -87,7 +87,7 @@ export default function Home() {
           </h3>
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-1">
-              <span className="text-sm font-mono text-neon-green">Aug 2025 - Dec 2026 (Expected)</span>
+              <span className="text-sm font-mono text-neon-green">Aug 2025 - May 2027 (Expected)</span>
               <span className="text-neutral-white font-medium text-lg">M.S. Electrical Engineering (Data Science)</span>
               <span className="text-dimmed-zinc">University of Southern California</span>
             </li>
