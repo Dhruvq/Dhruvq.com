@@ -6,21 +6,20 @@ export default function Home() {
     <main className="flex-1 flex flex-col items-center px-4 sm:px-8 py-8 md:py-16 selection:bg-neon-purple selection:text-white max-w-5xl mx-auto w-full">
       {/* Navigation / Top Bar */}
       <nav className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center mb-16 gap-6">
-        <div className="flex flex-col gap-3">
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-neutral-white">
+        <div className="flex flex-row items-center gap-3">
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-white">
             Dhruv Thippasandra
           </h1>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-neon-green/30 bg-neon-green/5 w-fit">
-            <span className="w-2 h-2 rounded-full bg-neon-green glow-green"></span>
+          <div className="inline-flex items-center px-3 py-1 rounded-md border border-neon-green/30 bg-neon-green/5">
             <span className="text-xs uppercase tracking-wider text-neon-green font-mono">
-              Status: Graduating May '27
+              Graduating May '27
             </span>
           </div>
         </div>
 
         <div className="flex flex-col items-start sm:items-end gap-3 w-full sm:w-auto">
           <Link
-            href="/Resume_07_2026.pdf"
+            href="/current_resume.pdf"
             target="_blank"
             className="inline-flex w-full sm:w-56 h-10 items-center justify-center rounded-md bg-neon-purple px-6 text-sm font-medium text-white transition-all glow-purple hover:glow-purple-hover"
           >
