@@ -12,7 +12,7 @@ export default function Home() {
           </h1>
           <div className="inline-flex items-center px-3 py-1 rounded-md border border-neon-green/30 bg-neon-green/5">
             <span className="text-xs uppercase tracking-wider text-neon-green font-mono">
-              Graduating May '27
+              Graduating Dec '27
             </span>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
           Software Engineer building Scalable, Data-driven <span className="text-neon-green">Systems</span>
         </h2>
         <p className="text-lg text-dimmed-zinc leading-relaxed">
-          Focused on machine learning infrastructure, experimentation, and real-world deployment
+          Designing and deploying production software that is built to last and engineered to scale.
         </p>
       </section>
 
@@ -61,9 +61,17 @@ export default function Home() {
           </h3>
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-1">
+              <span className="text-sm font-mono text-neon-green">Sept 2026 - Dec 2026</span>
+              <span className="text-neutral-white font-medium text-lg">Software Development Engineer Intern</span>
+              <span className="w-fit text-[12.5px] text-zinc-300 font-mono font-medium border border-white/15 bg-white/[0.02] px-2 py-0.5 rounded mt-0.5">AWS (Amazon Web Services)</span>
+              <ul className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1 list-disc list-inside">
+                <li>SDE Intern on Amazon SageMaker AI, working on distributed training and post-training systems for large-scale foundation models across NVIDIA GPU and AWS Trainium environments.</li>
+              </ul>
+            </li>
+            <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Jun 2026 - Aug 2026</span>
               <span className="text-neutral-white font-medium text-lg">Software Engineering Intern</span>
-              <span className="text-dimmed-zinc">AT&amp;T</span>
+              <span className="w-fit text-[12.5px] text-zinc-300 font-mono font-medium border border-white/15 bg-white/[0.02] px-2 py-0.5 rounded mt-0.5">AT&amp;T</span>
               <ul className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1 list-disc list-inside">
                 <li>Engineered a scalable backend anomaly detection service using asynchronous FastAPI endpoints, integrating an Extended Isolation Forest (EIF) model to automatically detect and suspend telecom fraud.</li>
                 <li>Built automated Azure ETL pipelines to ingest 12M+ phone records from Snowflake to PostgreSQL, executing bihourly incremental upserts of user telemetry metrics to trigger batch fraud inference.</li>
@@ -73,7 +81,7 @@ export default function Home() {
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Sep 2025 - Jan 2026</span>
               <span className="text-neutral-white font-medium text-lg">Machine Learning Engineer</span>
-              <span className="text-dimmed-zinc">Mercor</span>
+              <span className="w-fit text-[12.5px] text-zinc-300 font-mono font-medium border border-white/15 bg-white/[0.02] px-2 py-0.5 rounded mt-0.5">Mercor</span>
               <ul className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1 list-disc list-inside">
                 <li>Compiled external ML competitions into challenging tasks reflecting real-world ML responsibilities.</li>
                 <li>Drafted detailed natural-language execution plans and implemented them in Python within Docker environments, validating against original plans.</li>
@@ -92,12 +100,12 @@ export default function Home() {
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Aug 2025 - May 2027 (Expected)</span>
               <span className="text-neutral-white font-medium text-lg">M.S. Electrical Engineering (Data Science)</span>
-              <span className="text-dimmed-zinc">University of Southern California</span>
+              <span className="w-fit text-[12.5px] text-zinc-300 font-mono font-medium border border-white/15 bg-white/[0.02] px-2 py-0.5 rounded mt-0.5">University of Southern California</span>
             </li>
             <li className="flex flex-col gap-1">
               <span className="text-sm font-mono text-neon-green">Sep 2022 - Jun 2025</span>
               <span className="text-neutral-white font-medium text-lg">B.S. Electrical Engineering</span>
-              <span className="text-dimmed-zinc">University of California, Riverside (Cum Laude)</span>
+              <span className="w-fit text-[12.5px] text-zinc-300 font-mono font-medium border border-white/15 bg-white/[0.02] px-2 py-0.5 rounded mt-0.5">University of California, Riverside (Cum Laude)</span>
               <div className="text-sm text-dimmed-zinc/80 mt-2 flex flex-col gap-1">
                 <p>GPA: 3.77</p>
                 <div className="opacity-80 mt-1 flex flex-col leading-snug">
